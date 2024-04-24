@@ -11,15 +11,11 @@ function Layout() {
 
 			<div className="main">
 				<Header/>
-
 				<main className="content">
 					<Outlet/>
 				</main>
-				
 				<Footer/>
 			</div>
-
-            
 		</div>
         </>
     );
